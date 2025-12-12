@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        TOMCAT_IP = "54.169.199.41"               // change if needed
+        TOMCAT_IP = "47.130.3.103"               // change if needed
         TOMCAT_USER = "ubuntu"                    // change to your server user
         TOMCAT_WAR_PATH = "/opt/tomcat/webapps"   // Tomcat webapps path
         SSH_CRED_ID = "pi-ssh-key"               // Jenkins credential ID (SSH private key)
