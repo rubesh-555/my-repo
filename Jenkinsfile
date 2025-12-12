@@ -5,7 +5,7 @@ pipeline {
         TOMCAT_IP = "47.130.3.103"               // change if needed
         TOMCAT_USER = "ubuntu"                    // change to your server user
         TOMCAT_WAR_PATH = "/opt/tomcat/webapps"   // Tomcat webapps path
-        SSH_CRED_ID = "pi-ssh-key"               // Jenkins credential ID (SSH private key)
+        SSH_CRED_ID = "ec2-key"               // Jenkins credential ID (SSH private key)
     }
 
     stages {
