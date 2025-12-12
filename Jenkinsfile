@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR-USERNAME/tomcat-deploy-pipeline.git'
+                git branch: 'main', url: 'https://github.com/rubesh-555/my-repo.git'
             }
         }
 
